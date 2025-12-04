@@ -1,0 +1,21 @@
+2P.CHANGEOVER
+CHW.Bridge Level Bypass Flow
+CHW.Building Chilled Water Return Temp
+CHW.Building Chilled Water Supply Temp
+CHW.Building Chilled Water Supply Temp Setpoint
+CHW.DIVERTING
+CHW.ECONOMIZER
+CHW.Loop Chilled Water Supply Temp
+CHW.Outside Air Temp
+CHW.PUMP1.CALL
+CHW.PUMP1.Start Stop
+CLGSP
+HHW.Building Hot Water Supply Temp
+HHW.HWSP
+HHW.Outside Air Temp
+HHW.PUMP1.CALL
+HHW.STMVLV
+HTGSP
+MAIN.Outside Air Temp
+Mode
+OATAVG

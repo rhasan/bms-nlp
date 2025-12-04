@@ -1,0 +1,53 @@
+AHU.AH01.HWP1_2.Enable
+AHU.AH01.Mixed Air Damper Position
+AHU.AH01.Mixed Air Temp
+AHU.AH01.Outside Air Temp
+AHU.AH01.P6.Enable
+AHU.AH01.RAF1.Enable
+AHU.AH01.RAF1.Status
+AHU.AH01.RAF2.Enable
+AHU.AH01.RAF2.Status
+AHU.AH01.Return Air Temp
+AHU.AH01.SAF1.Status
+AHU.AH01.SAF2.Status
+AHU.AH01.Supply Air Temp
+AHU.AH01.Supply Air Temp Setpoint
+AHU.AHU01.1stFloor.Zone Air Temp
+AHU.AHU01.1stFloorMezz.Zone Air Temp
+AHU.AHU01.2ndFloor.Zone Air Temp
+AHU.AHU01.2ndFloorMezz.Zone Air Temp
+AHU.AHU01.AVG.Zone Air Temp
+AHU.AHU01.BasementZt1.Zone Air Temp
+AHU.AHU01.BasementZt1Mezz.Zone Air Temp
+AHU.AHU01.Mixed Air Damper Position
+AHU.AHU01.Mixed Air Temp
+AHU.AHU01.Outside Air Temp
+AHU.AHU01.Return Air Temp
+AHU.AHU01.RF.Status
+AHU.AHU01.Run Status
+AHU.AHU01.Run Status Sum
+AHU.AHU01.SF.Status
+AHU.AHU01.Supply Air Temp
+AHU.AHU01.Supply Air Temp Setpoint
+AHU.AHU02.1stFloor.Zone Air Temp
+AHU.AHU02.1stFloorMezz.Zone Air Temp
+AHU.AHU02.2ndFloor.Zone Air Temp
+AHU.AHU02.2ndFloorMezz.Zone Air Temp
+AHU.AHU02.AVG.Zone Air Temp
+AHU.AHU02.BasementZt1.Zone Air Temp
+AHU.AHU02.BasementZt1Mezz.Zone Air Temp
+AHU.AHU02.Mixed Air Damper Position
+AHU.AHU02.Mixed Air Temp
+AHU.AHU02.Outside Air Temp
+AHU.AHU02.Return Air Temp
+AHU.AHU02.RF.Status
+AHU.AHU02.Run Status
+AHU.AHU02.Run Status Sum
+AHU.AHU02.SF.Status
+AHU.AHU02.Supply Air Temp
+AHU.AHU02.Supply Air Temp Setpoint
+CONDENSATE.PRESS
+HW.Hot Water Supply Temp
+RoofAHU.CHW.PUMP01.Status
+RoofAHU.HWP1.Status
+STEAM.PRESS

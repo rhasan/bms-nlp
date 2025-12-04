@@ -1,0 +1,70 @@
+AHU.AH04.CCO
+AHU.AH04.CCV
+AHU.AH04.Cooling Enable
+AHU.AH04.ECM
+AHU.AH04.EF11.Start Stop
+AHU.AH04.HCO
+AHU.AH04.HCV
+AHU.AH04.Heating Enable
+AHU.AH04.MAM
+AHU.AH04.MAO
+AHU.AH04.MAS
+AHU.AH04.Mixed Air Damper Position
+AHU.AH04.Mixed Air Temp
+AHU.AH04.Outside Air Temp Virtual
+AHU.AH04.Return Air Temp
+AHU.AH04.RF.Speed
+AHU.AH04.RF.Speed Command
+AHU.AH04.RF.Start Stop
+AHU.AH04.SF.Speed
+AHU.AH04.SF.Speed Command
+AHU.AH04.SF.Start Stop
+AHU.AH04.SSD
+AHU.AH04.Supply Air Temp
+AHU.AH04.Supply Air Temp Setpoint
+AHU.AH04.Zone Air Temp
+AHU.AHU04.Run Status
+AHU.AHU04.Run Status Sum
+Building_Electricity_AnnualUsage
+Building_Electricity_Demand_kBtu
+Building_Electricity_EUI
+Building_Electricity_MonthlyUsage
+Building_Electricity_RolloverCheck
+Building_Electricity_RolloverCountMonth
+Building_Electricity_RolloverCountYear
+Building_Estimated.EUI
+Building_Metering
+Building_Total_Demand
+CHW.Building Diff Pressure
+CHW.End of Line Diff Pressure Setpoint
+CHW.PUMP1.Speed
+CHW.PUMP1.Start Stop
+HHW.Building Hot Water Return Temp
+HHW.Building Hot Water Supply Temp
+HHW.Enable
+HHW.HWSP
+HHW.OA ENABLE
+HHW.OA HIGH
+HHW.OA LOW
+HHW.Outside Air Temp
+HHW.PUMP.Proof
+HHW.PUMP.Speed
+HHW.PUMP.Start Stop
+HHW.SP HIGH
+HHW.SP LOW
+HHW.STMVLV
+MAIN.Outside Air Temp
+ZONE.AH04.RM206A.Day Night
+ZONE.AH04.RM206A.Heat Cool
+ZONE.AH04.RM206A:AUX TEMP
+ZONE.AH04.RM206A:CTL TEMP
+ZONE.AH04.RM206A:FAN
+ZONE.AH04.RM206A:VLV 1 COMD
+ZONE.AH04.RM206A:VLV 2 COMD
+ZONE.AH04.RM210.Day Night
+ZONE.AH04.RM210.Heat Cool
+ZONE.AH04.RM210:AUX TEMP
+ZONE.AH04.RM210:CTL TEMP
+ZONE.AH04.RM210:FAN
+ZONE.AH04.RM210:VLV 1 COMD
+ZONE.AH04.RM210:VLV 2 COMD

@@ -1,0 +1,47 @@
+# .pre-commit-config.yaml
+minimum_pre_commit_version: "3.5.0"
+default_language_version:
+  python: python3.12
+
+repos:
+  - repo: local
+    hooks:
+      - id: poetry-check
+        name: poetry check
+        entry: poetry check
+        language: system
+        pass_filenames: false
+
+      - id: black
+        name: black (diff+check)
+        entry: poetry run black --diff --check .
+        language: system
+        pass_filenames: false
+
+      - id: isort
+        name: isort (diff+check-only)
+        entry: poetry run isort --diff --check-only .
+        language: system
+        pass_filenames: false
+
+      - id: pylint
+        name: pylint
+        entry: poetry run pylint bms tests
+        language: system
+        pass_filenames: false
+
+      - id: mypy
+        name: mypy
+        entry: poetry run mypy bms tests
+        language: system
+        pass_filenames: false
+
+      # Running tests on every *commit* can feel slow; by default attach to pre-push.
+      # If you want it on each commit, delete the "stages" line.
+      - id: pytest
+        name: pytest (with JUnit)
+        entry: poetry run pytest --junitxml=.pytest-junit-report.xml
+        language: system
+        pass_filenames: false
+        stages: [pre-push]
+        require_serial: true

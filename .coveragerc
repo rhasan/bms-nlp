@@ -1,0 +1,12 @@
+[run]
+source =
+    bms
+omit =
+    *venv/*,
+    *.tox/*,
+    tests/*
+
+[report]
+show_missing = False
+ignore_errors = True
+skip_empty = True

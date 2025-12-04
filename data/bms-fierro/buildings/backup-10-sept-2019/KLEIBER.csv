@@ -1,0 +1,38 @@
+AHU.AH01.Building Static Pressure
+AHU.AH01.CCO
+AHU.AH01.CCV
+AHU.AH01.CHW.PUMP.Start Stop
+AHU.AH01.COIL SAT
+AHU.AH01.EAO
+AHU.AH01.ECM
+AHU.AH01.EXH FAN.Start Stop
+AHU.AH01.HCO
+AHU.AH01.HCV
+AHU.AH01.MAO
+AHU.AH01.Mixed Air Damper Position
+AHU.AH01.MODE
+AHU.AH01.NGT OVR
+AHU.AH01.OA DAMPER
+AHU.AH01.Outside Air Temp
+AHU.AH01.Outside Air Temp Virtual
+AHU.AH01.Return Air Temp
+AHU.AH01.RF.Speed Command
+AHU.AH01.RMT2
+AHU.AH01.RVD
+AHU.AH01.SAF.Proof
+AHU.AH01.SF.Speed Command
+AHU.AH01.SF.Start Stop
+AHU.AH01.SSD
+AHU.AH01.Supply Air Temp
+AHU.AH01.Supply Air Temp Setpoint
+AHU.AH01.Supply Static Pressure Setpoint
+AHU.AH01.SVD
+AHU.AH01.VRT
+AHU.AH01.Zone Air Temp
+AHU.AH01.ZSP
+AHU.AHU01.Run Status
+AHU.AHU01.Run Status Sum
+CHW.Building Chilled Water Return Temp
+CHW.Building Chilled Water Supply Temp
+CHW.Loop Chilled Water Return Temp
+CHW.Loop Chilled Water Supply Temp

@@ -1,0 +1,90 @@
+AHU.AHU01A.Run Status
+AHU.AHU01A.Run Status Sum
+AHU.AHU01B.Run Status
+AHU.AHU01B.Run Status Sum
+AHU.AHU02A.Run Status
+AHU.AHU02A.Run Status Sum
+AHU.AHU02B.Run Status
+AHU.AHU02B.Run Status Sum
+AHU.AHU03A.Run Status
+AHU.AHU03A.Run Status Sum
+AHU.AHU03B.Run Status
+AHU.AHU03B.Run Status Sum
+AHU.AHU04A.Run Status
+AHU.AHU04A.Run Status Sum
+AHU.AHU04B.Run Status
+AHU.AHU04B.Run Status Sum
+AHU.AHU05A.Run Status
+AHU.AHU05A.Run Status Sum
+AHU.AHU05B.Run Status
+AHU.AHU05B.Run Status Sum
+AHU.AHU06A.Run Status
+AHU.AHU06A.Run Status Sum
+AHU.AHU06B.Run Status
+AHU.AHU06B.Run Status Sum
+AHU.AHU07A.Run Status
+AHU.AHU07A.Run Status Sum
+AHU.AHU07B.Run Status
+AHU.AHU07B.Run Status Sum
+ALL FANS KW TOTAL
+ALL HWPS KW TOTAL
+CHW.BCHW_DIFF_TEMP
+CHW.Bridge Level Bypass Flow
+CHW.Building Chilled Water Flow
+CHW.Building Chilled Water Return Temp
+CHW.Building Chilled Water Supply Temp
+CHW.Building Chilled Water Supply Temp Setpoint
+CHW.ECONOMIZER
+CHW.Enable
+CHW.End of Line Diff Pressure
+CHW.End of Line Diff Pressure Setpoint
+CHW.LCHW_DIFF_TEMP
+CHW.Loop Chilled Water Flow
+CHW.Loop Chilled Water Return Temp
+CHW.Loop Chilled Water Supply Temp
+CHW.OA ENABLE
+CHW.Outside Air Temp
+CHW.PUMP1.CURRENT
+CHW.PUMP1.FAULT
+CHW.PUMP1.FEEDBACK
+CHW.PUMP1.HOA
+CHW.PUMP1.Speed
+CHW.PUMP1.Start Stop
+CHW.PUMP1:POWER
+CHW.PUMP2.FAULT
+CHW.PUMP2.HOA
+CHW.PUMP2.Speed
+CHW.PUMP2.Start Stop
+CHW.PUMP2:CURRENT
+CHW.PUMP2:POWER
+EF VFDS KW TOTAL
+HHW.Building Diff Pressure
+HHW.Building Hot Water Flow
+HHW.Building Hot Water FlowSW
+HHW.Building Hot Water Return Temp
+HHW.Building Hot Water Supply Temp
+HHW.Enable
+HHW.End of Line Diff Pressure
+HHW.End of Line Diff Pressure Setpoint
+HHW.HEX
+HHW.HWDIFF TEMP
+HHW.HWSP
+HHW.OA ENABLE
+HHW.OA HIGH
+HHW.OA LOW
+HHW.Outside Air Temp
+HHW.PUMP1.FAULT
+HHW.PUMP1.HOA
+HHW.PUMP1.KW
+HHW.PUMP1.Proof
+HHW.PUMP1.Speed
+HHW.PUMP1.Start Stop
+HHW.PUMP1:POWER
+HHW.PUMP2.KW
+HHW.PUMP2.Proof
+HHW.PUMP2.Speed
+HHW.PUMP2.Start Stop
+HHW.PUMP2:POWER
+HHW.SP HIGH
+HHW.SP LOW
+SF VFDS KW TOTAL
