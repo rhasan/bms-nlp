@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "bms"
+name = "bms-nlp-benchmark"
 version = "0.1.0"
 description = "A benchmark to test how well NLP models understand BMS point names across different buildings."
 authors = ["Rakebul Hasan"]

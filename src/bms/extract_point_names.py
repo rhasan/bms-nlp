@@ -1,5 +1,40 @@
 """
-This module contains code for extracting point names.
+This module extracts BMS point names from a heterogeneous collection of CSV
+files and produces a clean, uniform JSONL dataset suitable for downstream
+tokenization and labeling.
+
+The module scans a directory of CSV files, loads each file, identifies which
+column contains the point names, and outputs one JSON object per point. Each
+record includes the point label, the column it came from, the source filename,
+and a building identifier derived from the filename.
+
+Because raw files vary widely in structure, the module uses heuristics rather
+than fixed schemas. It first applies a pattern-based detector that determines
+whether individual strings resemble BMS-style point names, based on features
+such as uppercase abbreviations, separators (underscores, hyphens, dots), and
+letter–digit mixes.
+
+Using this detector, the loader decides whether the first row of each file is a
+header. It examines the first three rows column by column. If the second and
+third rows contain point-like strings in the same column while the first row
+does not, the first row is treated as a header. If that pattern is not found,
+a simpler fallback is used: if the first row contains no point-like strings but
+the second row does, the first row is again considered a header; otherwise the
+file is treated as headerless and synthetic column names are assigned.
+
+After header handling, the module identifies the point-name column. It first
+checks for known preferred column names (such as “Label” or “bas_raw”).
+If none are present, it evaluates each text column by how frequently its values
+look like BMS-style strings and selects the column with the strongest signal.
+
+For each row in the chosen column, the module constructs a normalized record
+containing the extracted point label and relevant metadata. All records from
+all files are combined and written to a JSONL file, one point per line.
+
+Overall, this module serves as a normalization layer that converts messy,
+vendor-specific CSV dumps into a consistent corpus of BMS point names, ready for
+token-level annotation, weak labeling, BIO tagging, and structured semantic
+interpretation.
 """
 
 import os

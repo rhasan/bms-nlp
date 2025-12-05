@@ -5,7 +5,7 @@ from pathlib import Path
 
 import pandas as pd
 
-import bms.extract_point_names as epn
+from src.bms import extract_point_names as epn
 
 # ---------------------------
 # is_bms_style_string tests

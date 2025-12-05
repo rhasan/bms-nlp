@@ -26,13 +26,13 @@ repos:
 
       - id: pylint
         name: pylint
-        entry: poetry run pylint bms tests
+        entry: poetry run pylint src tests
         language: system
         pass_filenames: false
 
       - id: mypy
         name: mypy
-        entry: poetry run mypy bms tests
+        entry: poetry run mypy src tests
         language: system
         pass_filenames: false
 
