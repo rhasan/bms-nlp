@@ -38,6 +38,7 @@ interpretation.
 """
 
 import os
+import random
 import re
 from pathlib import Path
 
@@ -246,12 +247,34 @@ def load_all_bms_points(raw_dir: Path, bms_output_file):
     full_df.to_json(bms_output_file, orient="records", lines=True)
 
 
+def sample_one_point_per_building(jsonl_path, seed=42):
+    """
+    Read the extracted BMS JSONL file, select one random point name for each
+    building_id, and return the selected point names separated by newlines.
+    """
+    # Fix randomness for reproducibility
+    random.seed(seed)
+
+    # Load JSONL into a DataFrame
+    df = pd.read_json(jsonl_path, lines=True)
+
+    if "building_id" not in df.columns or "point_label" not in df.columns:
+        raise ValueError("JSONL must contain 'building_id' and 'point_label' columns.")
+
+    # Group by building and sample one point per building
+    samples = df.groupby("building_id")["point_label"].apply(lambda s: s.sample(1, random_state=seed).iloc[0])
+
+    # Join into newline-separated string
+    return "\n".join(samples.tolist())
+
+
 def main():
     """Entry point for pattern parser."""
     bms_input_directory = Path(os.getenv("BMS_INPUT_DIR", "data/bms-fierro/buildings"))
     bms_output_file = Path(os.getenv("PARSER_OUTPUT_DIR", "data/output/point-name-parser")) / "all_points.jsonl"
 
     load_all_bms_points(raw_dir=bms_input_directory, bms_output_file=bms_output_file)
+    print(sample_one_point_per_building(jsonl_path=bms_output_file))
 
 
 if __name__ == "__main__":
